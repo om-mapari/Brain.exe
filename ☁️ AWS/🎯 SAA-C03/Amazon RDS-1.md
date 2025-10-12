@@ -36,7 +36,8 @@
     ○ Cross-region → ⚠️ Network cost applies.
   • ✔ Replica can be promoted to their own DB
 
-![image1](../images/fc666f7f0f7844a886326eb9247ac417.png)
+![image1|325](../images/fc666f7f0f7844a886326eb9247ac417.png)
+
 
 🧩 Key Differences: Read Replica vs Multi-AZ
 
@@ -58,11 +59,11 @@
 ○ Sync is established between two DB
 
 same for Arora - just you can't desiable the automated snapshot
-![image2](../images/c3556880a43c4e32970973b9601f1785.png)
+![image2|675](../images/c3556880a43c4e32970973b9601f1785.png)
 
 can be used for Migration
-![image3](../images/04888edc303b4470997e6a8a2a3f800c.png)
+![image3|675](../images/04888edc303b4470997e6a8a2a3f800c.png)
 
-![image4](../images/b6dc22baf2484285adcd39b0dcf02a3b.png)
+![image4|675](../images/b6dc22baf2484285adcd39b0dcf02a3b.png)
 
-![image5](../images/7b88588d52a6415a830375148ad66b88.png)
+![image5|675](../images/7b88588d52a6415a830375148ad66b88.png)
