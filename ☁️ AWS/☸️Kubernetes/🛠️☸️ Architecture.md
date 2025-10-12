@@ -1,12 +1,12 @@
 
 Nodes (minions)
-\- kubernetis installed
+\- Kubernetes installed
 
 
 Clusters - set of nodes group together
 
 Master Nodes -
-\- master node with kubernets installed in it
+\- master node with Kubernetes installed in it
 
 components
 Api server
