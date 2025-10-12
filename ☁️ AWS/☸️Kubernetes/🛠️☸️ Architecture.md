@@ -1,7 +1,7 @@
 
 Nodes (minions)
 \- kubernetis installed
-\-
+
 
 Clusters - set of nodes group together
 
