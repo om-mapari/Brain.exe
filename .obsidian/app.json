@@ -1,0 +1,16 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "/",
+  "tabSize": 4,
+  "alwaysUpdateLinks": true,
+  "livePreview": true,
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "foldHeading": true,
+  "showLineNumber": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "relative",
+  "newFileLocation": "root",
+  "newFileFolderPath": "img"
+}

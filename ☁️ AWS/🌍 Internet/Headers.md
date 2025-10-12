@@ -1,0 +1,25 @@
+
+The X-Forwarded-For (XFF) header is an HTTP header used to identify the **original IP address of a client** connecting to a web server **through a proxy, load balancer, or CDN**.
+
+**💡 Why it's needed:**
+When a request passes through a proxy or load balancer, the origin server sees the IP of that intermediary instead of the real client. The X-Forwarded-For header helps retain the original client's IP.
+
+**🧾 Format:**
+
+makefile
+CopyEdit
+X-Forwarded-For: client_ip, proxy1_ip, proxy2_ip
+- client_ip: the original client's IP address
+- proxy1_ip, proxy2_ip: subsequent proxy or load balancer IPs (optional)
+
+**✅ Example:**
+
+makefile
+CopyEdit
+X-Forwarded-For: 203.0.113.1, 198.51.100.101
+- 203.0.113.1: original client
+- 198.51.100.101: the proxy/load balancer
+
+**🔒 Security Note:**
+- This header can be **spoofed** by clients, so don't blindly trust it.
+- Use trusted proxies and configure web servers to only accept XFF from them.

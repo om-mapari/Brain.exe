@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "3c90457297de4b68",
+    "type": "split",
+    "children": [
+      {
+        "id": "2dacfc224c3cf56a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15f9cc6c6a1c479b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "8f08a2183c8a4514",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kinesis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6f6e4a1a6b19227",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0f1a174228b25664",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d98f76afc468e91c",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "c1685d1a95bea294",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "7b2b3f276649a86d",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b3d288356dd4559a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3338600e6444ab8b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Kinesis.md",
+            "collapseAll": false,
+            "extraContext": true,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "89a9ba5851682a82",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Kinesis.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "36ff648778dabf99",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Kinesis.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8f08a2183c8a4514",
+  "lastOpenFiles": [
+    "data/Pasted image 20240305093528.png",
+    "Kinesis.md",
+    "data/Pasted image 20240305093501.png",
+    "Excalidraw/Drawing 2024-03-03 02.48.05.excalidraw.md",
+    "new file.md",
+    "Excalidraw/Drawing 2024-03-03 02.48.05.excalidraw.md.2024-03-03_03.01.18.foldersync.old",
+    "3rd page.md",
+    "Basics.md",
+    "New page.md",
+    "Basics.md.2024-03-03_02.43.39.foldersync.old",
+    "Basics.md.2024-03-03_02.38.58.foldersync.old",
+    "new file.md.2024-03-03_02.33.54.foldersync.old",
+    "new file.md.2024-03-03_02.32.13.foldersync.old",
+    "Untitled.md",
+    "Untitled",
+    "How",
+    "New basis"
+  ]
+}
