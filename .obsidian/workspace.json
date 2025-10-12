@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "☁️ AWS/🎯 SAA-C03/Exam.md",
+                "file": "☁️ AWS/🎯 SAA-C03/Amazon RDS-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exam"
+              "title": "Amazon RDS-1"
             }
           }
         ]
@@ -173,6 +173,7 @@
   },
   "active": "16d8ff6fb107e7e1",
   "lastOpenFiles": [
+    "☁️ AWS/🎯 SAA-C03/Exam.md",
     "☁️ AWS/🎯 SAA-C03/Amazon RDS-1.md",
     "☁️ AWS/🎯 SAA-C03/Amazon RDS.md",
     "☁️ AWS/🌐 VPC/VPC High Level.md",
@@ -213,7 +214,6 @@
     "☁️ AWS/🚀 System Design/IPC.md",
     "☁️ AWS/🚀 System Design/by ByteMonk.md",
     "☁️ AWS/🚀 System Design",
-    "☁️ AWS/🖥️ EC2/EC2/🧩 Instance Type.md",
     "☁️ AWS/🖥️ EC2/EC2",
     "☁️ AWS/🖥️ EC2",
     "☁️ AWS/🐳Docker/🛠️🐳 Docker Architecture",
