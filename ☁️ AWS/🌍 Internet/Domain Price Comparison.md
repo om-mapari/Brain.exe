@@ -1,11 +1,11 @@
 
 GoDaddy
-![image1](../images/630fcaa0d74b412cb45a40245c7bfc3c.png)
+![image1|800](../images/630fcaa0d74b412cb45a40245c7bfc3c.png)
 
 Route 53
 
 constant price 15\$
-![image2](../images/9c908fec844a4607be5fdb0082b5ae08.png)
+![image2|825](../images/9c908fec844a4607be5fdb0082b5ae08.png)
 
 hostinger
 

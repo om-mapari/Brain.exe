@@ -29,9 +29,3 @@ Proxy Types:
 
 ![image1](../images/3fa0b125bc0841afac4df7ee9ebda587.png)
 
-main bus itna kahana chahta hu
-iss hackathon ke liye filal itna hi
-aapki trah mai bhi mayush hu
-lekin umeed par duniya kayam hai
-dil dukha hai lekin tuta to nahi hai
-Aur Umeed ka daman chutta toh nahi ha

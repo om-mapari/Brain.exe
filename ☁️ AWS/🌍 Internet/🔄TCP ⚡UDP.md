@@ -35,11 +35,13 @@ Now your browser can request the webpage, and Google’s server will send the da
 
 ### 📡 Visual: TCP 3-Way Handshake
 
+SYN - synchronize packet
+
 #### Step 1: SYN (Client → Server)
 
 ```
  ┌───────────────┐   SYN Request   ┌───────────────┐ 
- │   Browser     │ ───────────────▶ │ Google Server │ 
+ │   Browser     │ ──────────────▶ │ Google Server │ 
  │   (Client)    │                 │   (Server)    │ 
  └───────────────┘                 └───────────────┘ 
 ```
@@ -57,7 +59,7 @@ Now your browser can request the webpage, and Google’s server will send the da
 
 ```
  ┌───────────────┐   ACK Response  ┌───────────────┐ 
- │   Browser     │ ───────────────▶ │ Google Server │ 
+ │   Browser     │ ──────────────▶ │ Google Server │ 
  │   (Client)    │                 │   (Server)    │ 
  └───────────────┘                 └───────────────┘ 
 ```
@@ -100,28 +102,28 @@ It’s **faster** but **less reliable** than TCP.
 
 ## 🆚 TCP vs. UDP: Key Differences
 
-|Feature|TCP 🔄|UDP ⚡|
-|---|---|---|
-|**Connection Type**|Connection-oriented|Connectionless|
-|**Reliability**|High (ensures all packets arrive)|Low (no guarantee of delivery)|
-|**Speed**|Slower (due to error checking)|Faster (no error checking)|
-|**Use Case**|Web browsing, emails, file transfers|Streaming, gaming, VoIP|
-|**Error Handling**|Yes (resends lost packets)|No (lost packets are ignored)|
-|**When to Use**|Use TCP when **reliability > speed** (e.g., emails, banking, downloads).|Use UDP when **speed > reliability** (e.g., streaming, gaming, VoIP).|
+| Feature             | TCP 🔄                                                                   | UDP ⚡                                                                 |
+| ------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| **Connection Type** | Connection-oriented                                                      | Connectionless                                                        |
+| **Reliability**     | High (ensures all packets arrive)                                        | Low (no guarantee of delivery)                                        |
+| **Speed**           | Slower (due to error checking)                                           | Faster (no error checking)                                            |
+| **Use Case**        | Web browsing, emails, file transfers                                     | Streaming, gaming, VoIP                                               |
+| **Error Handling**  | Yes (resends lost packets)                                               | No (lost packets are ignored)                                         |
+| **When to Use**     | Use TCP when **reliability > speed** (e.g., emails, banking, downloads). | Use UDP when **speed > reliability** (e.g., streaming, gaming, VoIP). |
 
 ---
 
 ## ✅ AWS Use Cases for TCP 🔄 (Reliable, Connection-Oriented Protocol)
 
-|AWS Service|Protocol (TCP Port)|Use Case|
-|---|---|---|
-|**Amazon EC2**|TCP 22 (SSH)|Securely connect to a Linux instance using SSH|
-|**Amazon EC2**|TCP 3389 (RDP)|Connect to a Windows instance using Remote Desktop|
-|**Amazon S3**|TCP 443 (HTTPS)|Secure file transfers to/from S3 buckets|
-|**Elastic Load Balancer (ELB)**|TCP 80 (HTTP) / 443 (HTTPS)|Distributes web traffic across EC2 instances|
-|**AWS RDS (MySQL, PostgreSQL, etc.)**|TCP 3306 (MySQL), 5432 (PostgreSQL)|Database connections from applications|
-|**AWS Lambda (API Gateway trigger)**|TCP 443 (HTTPS)|API Gateway invokes Lambda securely|
-|**Amazon WorkSpaces**|TCP 4172|Remote desktop connection for AWS WorkSpaces|
+| AWS Service                           | Protocol (TCP Port)                 | Use Case                                           |
+| ------------------------------------- | ----------------------------------- | -------------------------------------------------- |
+| **Amazon EC2**                        | TCP 22 (SSH)                        | Securely connect to a Linux instance using SSH     |
+| **Amazon EC2**                        | TCP 3389 (RDP)                      | Connect to a Windows instance using Remote Desktop |
+| **Amazon S3**                         | TCP 443 (HTTPS)                     | Secure file transfers to/from S3 buckets           |
+| **Elastic Load Balancer (ELB)**       | TCP 80 (HTTP) / 443 (HTTPS)         | Distributes web traffic across EC2 instances       |
+| **AWS RDS (MySQL, PostgreSQL, etc.)** | TCP 3306 (MySQL), 5432 (PostgreSQL) | Database connections from applications             |
+| **AWS Lambda (API Gateway trigger)**  | TCP 443 (HTTPS)                     | API Gateway invokes Lambda securely                |
+| **Amazon WorkSpaces**                 | TCP 4172                            | Remote desktop connection for AWS WorkSpaces       |
 
 ---
 

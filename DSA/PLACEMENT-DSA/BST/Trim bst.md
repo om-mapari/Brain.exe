@@ -1,0 +1,5 @@
+
+![image1](../../resources/e24b445c572a4233963e61cc106ac89e.png)
+
+take decision
+![image2](../../resources/89c3448d4e434a879e38af85d8ce46fb.png)![image3](../../resources/b22745ec6d6a47d8bbe68da5640d63cb.png)![image4](../../resources/232fdbe97a73428fb223082164bad235.png)![image5](../../resources/c6125c244d1546749cccb8b9014f5c75.png)![image6](../../resources/dd3a5391bce44aceb6f197840c18baa7.png)![image7](../../resources/6074e3cfba1f4d608dc3fb4d8362e7ed.png)![image8](../../resources/9fb51990123c403a94f966133e4a3bfb.png)![image9](../../resources/3aebd6f8135b47ca98f10e5b33b921d7.png)![image10](../../resources/a981bdfd17864b02b5c0e462c3add6f8.png)![image11](../../resources/b913021f121c4b81a96e6f992459fe2a.png)![image12](../../resources/f6b80a0cdce240b2b7d2e8fc007032df.png)![image13](../../resources/4a40c5425e384a63907fea83f0b0f3de.png)![image14](../../resources/d4216a0f78124ff3b8cf2d5b34e0f445.png)![image15](../../resources/12a1b41a8b1c40f18111177cc3ffc1f9.png)![image16](../../resources/845657b6c1bf489fb68ff2d4a2e011c6.png)![image17](../../resources/0f74ae3f0d1149e9bc4532411354d49c.png)
