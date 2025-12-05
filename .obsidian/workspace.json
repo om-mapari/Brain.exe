@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "688de90df7cbc17c",
+        "id": "1d1ac676b7272530",
         "type": "tabs",
         "children": [
           {
-            "id": "e7fed5ae3a803be8",
+            "id": "4a6863a1423491ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/PLACEMENT-DSA/2D Matrix/Matrix tricks.md",
-                "mode": "source",
+                "file": "🐳 Docker/7-1 🔍 How Containerization Works.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Matrix tricks"
+              "title": "7-1 🔍 How Containerization Works"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rraform import ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 304.5
   },
   "right": {
     "id": "73bd375c20c032d0",
@@ -94,17 +94,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kinesis.md",
-                "collapseAll": false,
+                "file": "🛠️Terraform/2. Files.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kinesis"
+              "title": "Backlinks for 2. Files"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kinesis.md",
+                "file": "🛠️Terraform/2. Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Kinesis"
+              "title": "Outgoing links from 2. Files"
             }
           },
           {
@@ -151,11 +151,12 @@
               "title": "Outline of Kinesis"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -171,54 +172,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7fed5ae3a803be8",
+  "active": "4a6863a1423491ca",
   "lastOpenFiles": [
-    "DSA/PLACEMENT-DSA/2D Matrix/Max Increase to Keep City Skyline.md",
-    "DSA/PLACEMENT-DSA/2D Matrix/Matrix tricks.md",
-    "DSA/PLACEMENT-DSA/ARRAY/✅ 2 Sum.md",
-    "DSA/PLACEMENT-DSA/ALGO/monotonous stack.md",
-    "DSA/PLACEMENT-DSA/ALGO/NGE.md",
-    "DSA/PLACEMENT-DSA/ALGO/mono deque.md",
-    "DSA/PLACEMENT-DSA/ALGO/Kadense.md",
-    "DSA/PLACEMENT-DSA/ALGO/Insersion.md",
-    "DSA/PLACEMENT-DSA/ALGO/2 Pointer.md",
-    "DSA/PLACEMENT-DSA/2D Matrix/rotate image by 90.md",
-    "DSA/PLACEMENT-DSA/2D Matrix/prefix sum  matrix.md",
-    "DSA/PLACEMENT-DSA/ARRAY 2/✅ Longest Mountain Array.md",
-    "DSA/PLACEMENT-DSA/ARRAY 2/✅ PreFiX sum/PrefiX sum Hard.md",
-    "🌐 Networking/4 DNS Server.md",
-    "DSA/resources/ffed13c2b4724ef7bc5d8ecc800819ba.png",
-    "DSA/resources/ff85aa95324b44598e89a3839240f5a6.png",
-    "DSA/resources/ff81b72e382a45b987b8c0df45589a6b.png",
-    "DSA/resources/ff61c9229bf64bdda6838a49b26e8b5d.png",
-    "DSA/resources/fede22712b534e649aabf4539ee4e1e8.png",
-    "DSA/resources/fed4776412c841faad4414c1f73d83fd.png",
-    "DSA/resources/fe420975b05648c7a8ea56ade5722a58.png",
-    "DSA/resources/fdb7d427060e4dfa938b8d76cbefcc03.png",
-    "DSA/resources/fda12337322e402f8b2caa72cfe44e1f.png",
-    "DSA/resources/fd8c6f10dcad4870a2e2666f85fb599b.png",
-    "DSA/resources",
-    "DSA/PLACEMENT-DSA/TRICKS/to Submit solution.md",
-    "DSA/PLACEMENT-DSA/TRICKS/TLE.md",
-    "DSA/PLACEMENT-DSA/TRICKS/tips.md",
-    "DSA/PLACEMENT-DSA/TRICKS/Should Do.md",
-    "DSA/PLACEMENT-DSA/TRICKS/Shortcuts.md",
-    "DSA/PLACEMENT-DSA/TRICKS/random no.md",
-    "DSA/PLACEMENT-DSA/TRICKS/points.md",
-    "DSA/PLACEMENT-DSA/TRICKS/OBSERVATION.md",
-    "DSA/PLACEMENT-DSA/TRICKS/INT_MAX.md",
-    "DSA/PLACEMENT-DSA/TRICKS/Function.md",
-    "DSA/PLACEMENT-DSA/TRICKS/Fuck I didn't know.md",
-    "DSA/PLACEMENT-DSA/TRICKS/Conversion & ASCII value.md",
-    "DSA/PLACEMENT-DSA/TRICKS",
-    "DSA/PLACEMENT-DSA/TREE",
-    "DSA/PLACEMENT-DSA/TODO",
-    "DSA/PLACEMENT-DSA/Theory",
-    "DSA/PLACEMENT-DSA/STRING",
-    "DSA/PLACEMENT-DSA/STL",
-    "DSA/PLACEMENT-DSA/STACK",
-    "DSA/PLACEMENT-DSA/SORTING",
-    "DSA/PLACEMENT-DSA/REC AND BT/✅== Permutations ==✅",
+    "🐳 Docker/9 🤖Container Orchestration.md",
+    "🐳 Docker/8 🌍 Docker Hub.md",
+    "🐳 Docker/file",
+    "🐳 Docker/7-2 🌐 Networking (Container Communication).md",
+    "🐳 Docker/7-1 🔍 How Containerization Works.md",
+    "🐳 Docker/7 🛠️ Docker Architecture.md",
+    "🐳 Docker/2 🙇 Commands.md",
+    "🐳 Docker/3 🏃‍♂️ Docker Run.md",
+    "🐳 Docker/1 🐳 Docker.md",
+    "🙋‍♂️Om/way-to-write-notes-om.md",
+    "🐳 Docker/images/3_2.png",
+    "Docker/docker_compose.md",
+    "🐳 Docker/images/8_2.png",
+    "🐳 Docker/images/8_1.png",
+    "🐳 Docker/images/7_7.png",
+    "🐳 Docker/images/7_6.png",
+    "🐳 Docker/images/7_5.png",
+    "🐳 Docker/images/7_4.png",
+    "🐳 Docker/images/7_3.png",
+    "🐳 Docker/images/7_2.png",
+    "🐳 Docker/images/7_1.png",
+    "🐳 Docker/6 🔗 Docker Compose.md",
+    "🐳 Docker/5 🚦 CMD vs ENTRYPOINT.md",
+    "🐳 Docker/4 📝 Dockerfile.md",
+    "Docker/cmd_vs_entrypoint.md",
+    "Docker/docker_architecture.md",
+    "Docker/docker_run.md",
+    "Docker/dockerfile.md",
+    "Docker/docker.md",
+    "Docker/commands.md",
+    "☁️ AWS/02. 🐳Docker/7 🛠️ Docker Architecture.md",
+    "🐳 Docker/images",
+    "🐳 Docker",
+    "☁️ AWS/02. 🐳Docker/3 🏃‍♂️ Docker Run.md",
+    "☁️ AWS/02. 🐳Docker/6 🔗 Docker Compose.md",
+    "☁️ AWS/02. 🐳Docker/1 🐳 Docker.md",
+    "☁️ AWS/02. 🐳Docker/5 🚦 CMD vs ENTRYPOINT.md",
+    "☁️ AWS/02. 🐳Docker/🐳Docker.md",
+    "☁️ AWS/02. 🐳Docker/4 📝 Dockerfile.md",
+    "Untitled",
+    "🙋‍♂️Om",
+    "🛠️Terraform",
+    "userinput.py",
+    "☁️ AWS/10. 🎯 SAA-C03",
+    "☁️ AWS/09. 🧠 GenAI",
+    "☁️ AWS/08. ✨AI Studio",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

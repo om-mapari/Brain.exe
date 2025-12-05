@@ -1,0 +1,7 @@
+a:link {
+  text-decoration: none;
+}
+
+.markdown-reading-view .external-link, .markdown-reading-view .external-link:hover {
+    text-decoration: none;
+}

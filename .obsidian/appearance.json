@@ -2,13 +2,14 @@
   "accentColor": "",
   "cssTheme": "Obsidianite",
   "theme": "obsidian",
-  "baseFontSize": 20,
+  "baseFontSize": 21,
   "monospaceFontFamily": "",
   "baseFontSizeAction": true,
   "showViewHeader": true,
   "textFontFamily": "JetBrains Mono",
   "showRibbon": false,
   "enabledCssSnippets": [
-    "custom-padding"
+    "custom-padding",
+    "remove-underline"
   ]
 }

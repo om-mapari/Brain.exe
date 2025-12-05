@@ -110,9 +110,8 @@ app.listen(PORT, () => {
 |**Network Access Layer**|Ethernet or Wi-Fi sending physical frames|
 
 
-[[../☁️ AWS/🌍 Internet/🔄TCP ⚡UDP|🔄TCP ⚡UDP]]
 
-
+[[../☁️ AWS/00. 🌍 Internet/🔄TCP ⚡UDP|🔄TCP ⚡UDP]]
 
 
 

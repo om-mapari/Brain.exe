@@ -13,7 +13,7 @@ Command:
 ```bash
 nslookup om-mapari.com
 ```
-
+ommap@4.240.99.226
 ![[../attachments/3 Tracing a Web Request.. From My Laptop to the Server-1.webp]]
 
 ---
