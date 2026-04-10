@@ -1,10 +1,10 @@
 ---
-title: system-design-1
+title: 🚀 System Design
 description: My Notes
 tags:
-  - system-design
-created: 2025-12-10
-updated: 2026-01-26
+    - system-design
+created: 2026-04-10
+updated: 2026-04-10
 ---
 ---
 
