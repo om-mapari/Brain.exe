@@ -1,13 +1,26 @@
 ---
 title: 🧠 Fork My Brain
-description: "Personal knowledge base covering AWS, Kubernetes, Docker, Terraform, and DevOps. Learn cloud engineering through practical notes and experiments."
-tags: [om, aws, kubernetes, docker, terraform, devops, cloud, networking]
+description: Personal knowledge base covering AWS, Kubernetes, Docker, Terraform, and DevOps. Learn cloud engineering through practical notes and experiments.
+tags:
+    - om
+    - aws
+    - kubernetes
+    - docker
+    - devops
+    - cloud
+    - system-design
 created: 2025-12-10
-updated: 2026-03-19
+updated: 2026-04-18
 ---
 ---
 
-Welcome! 👋  
+> ###  “THE MORE I READ, THE MORE I ACQUIRE, THE MORE CERTAIN I AM THAT I KNOW NOTHING.”
+> — [Voltaire](https://www.goodreads.com/quotes/91067-the-more-i-read-the-more-i-acquire-the-more)
+
+---
+
+## Welcome! 👋  
+
 You’ve landed on my little corner of the internet – a living collection of notes, ideas, thoughts straight from my brain.
 
 Think of this space as my digital notebook. Here you’ll find:
@@ -16,7 +29,6 @@ Think of this space as my digital notebook. Here you’ll find:
 - stuff i like
 - some nerdy things
 - life
-- AWS experiments
 - engineering explorations
 - lessons learned
 - and random stuff I found interesting
@@ -29,7 +41,7 @@ If something looks wrong, outdated, or confusing, feel free to reach out. I genu
 
 ---
 
-## **Where to start?**
+## Where to start❓
 
 Anywhere. Seriously 😌
 <br>Try any of these:
@@ -42,7 +54,7 @@ Anywhere. Seriously 😌
 
 ---
 
-## 🧠 Why this exists
+## Why this exists❓
 
 Very simple reasons:
 
