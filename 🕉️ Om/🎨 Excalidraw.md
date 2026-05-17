@@ -1,7 +1,7 @@
 ---
 title: 🎨 Excalidraw
 created: 2026-04-12
-updated: 2026-04-17
+updated: 2026-04-27
 tags:
     - om
     - shortcuts
@@ -49,6 +49,7 @@ tags:
         - **Click → release**
     - Press `Esc` to finish
 - `Single Point -> multi point` → hover to mid point of arrow then Ctrl + click 
+- `ctrl + alt + c` →  copy style  `ctrl + alt + v` → paste style
 
 ---
 
