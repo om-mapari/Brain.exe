@@ -1,7 +1,7 @@
 ---
 title: Learn By Patterns
 created: 2026-04-18
-updated: 2026-04-21
+updated: 2026-05-18
 tags:
     - om
 ---
@@ -85,7 +85,7 @@ tags:
 
 ### 📊 Sorted Array
 
-- Two pointers technique - [[../1. Pattern - Two Pointers/index|1. Pattern - Two Pointers]]
+- Two pointers technique - [[../1. Two Pointers/index|1. Two Pointers]]
 - Binary search
 - Greedy
 
