@@ -1,6 +1,6 @@
 ---
 created: 2026-04-14
-updated: 2026-05-17
+updated: 2026-05-19
 
 excalidraw-plugin: parsed
 tags: [excalidraw]
@@ -13,6 +13,7 @@ tags: [excalidraw]
 # Excalidraw Data
 
 ## Text Elements
+
 API DESIGN 
 
 SEARCH  - GET  /event/search? query= & date={range} & category= & page=1&limit=20  → PartialEvent <Event> [] → list all the events in your area 
@@ -145,6 +146,7 @@ Redis ^btWWvH65
 
 %%
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZR5tHgBmOJo6IIR9BA4oZm4AbXAwUDAiiBJuCABZADkAJWr4wgAZJH5i2EQyqCwoZKLITG4ARgAGHgA2bQAOCYB2CYBWaZ4ATnil
 
@@ -573,3 +575,5 @@ DncZRjnY87eAM874KCvQhnVk75IHo6EAA47RIJwBg+YfU7YGGBroNOlsKOs6Z8nAxsACVgIXbcAlODC6
 oINxYiMKpDxtswmABkBIMGC6CXeM6qYMfoaXbgoEZPXIp9BS66HTlATXW8hu5TyJMACK7ggGK7OAFS7xfNdoOUI8gyMuEAmkKzQqIEAA
 ```
 %%
+
+---

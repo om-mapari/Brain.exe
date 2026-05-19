@@ -4,16 +4,17 @@ description: My Notes
 tags:
     - dsa
 created: 2026-04-17
-updated: 2026-05-18
+updated: 2026-05-19
 ---
 ---
 
-##  Tags
+## Tags
 
 - ⭐ = solved in first try  
 - 📍 = revisit 
 - 🔥 = important  
 - ⚠️ = solved but edge case missed 
+- 👀 = solved but had to see little soluation first 
 - 💀 = out of the box
 - no tag = pending/not started
 
