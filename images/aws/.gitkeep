@@ -1,6 +1,0 @@
-# AWS Images Directory
-
-This directory will contain organized AWS-related images following the pattern:
-- content/images/aws/[subfolder]/[note-name]-[number].jpg
-
-Subdirectories will be created as needed during the rewriting process.

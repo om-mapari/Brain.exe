@@ -4,47 +4,115 @@ description: My Notes
 tags:
     - dsa
 created: 2026-04-17
-updated: 2026-05-19
+updated: 2026-05-22
 ---
 ---
 
-## Tags
+## 1️⃣ Core Idea
 
-- ⭐ = solved in first try  
-- 📍 = revisit 
-- 🔥 = important  
-- ⚠️ = solved but edge case missed 
-- 👀 = solved but had to see little soluation first 
-- 💀 = out of the box
-- no tag = pending/not started
+- Use **2 pointers (indices)** instead of 1
+- Move them **in coordination**
+- Goal → **reduce time, avoid extra space**
 
-## 1. Pattern: Two Pointers
+---
 
-| Question                                                                                                                     | Tags  | Remember                                                                                                                                                                                            |          My Soluation           |
-| :--------------------------------------------------------------------------------------------------------------------------- | :---: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------: |
-| 1. Pair with Target Sum ([easy](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/))                |   ⭐   | if only small char in string then we can use freq map                                                                                                                                               |         [[1. Two Sum]]          |
-| 2. Rearrange 0 and 1 ([easy](https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1))                              |   ⭐   |                                                                                                                                                                                                     |                                 |
-| 3. Remove Duplicates ([easy](https://leetcode.com/problems/remove-duplicates-from-sorted-list/))                             |   ⭐   |                                                                                                                                                                                                     |                                 |
-| 4. Squaring a Sorted Array ([easy](https://leetcode.com/problems/squares-of-a-sorted-array/))                                |  --   |                                                                                                                                                                                                     |                                 |
-| 5. Triplet Sum to Zero ([medium](https://leetcode.com/problems/3sum/))                                                       | ⚠️ 📍 | reperating number condition                                                                                                                                                                         |        [[2. 3Sum 4Sum]]         |
-| 6. Triplet Sum Close to Target ([medium](https://leetcode.com/problems/3sum-closest/))                                       |   ⭐   |                                                                                                                                                                                                     |                                 |
-| 7. Triplets with Smaller Sum ([medium](https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1)) |   ⭐   |                                                                                                                                                                                                     |                                 |
-| 8. Dutch National Flag Problem ([medium](https://leetcode.com/problems/sort-colors/description/))                            |   ⭐   | like merge sort..<br>mid for curr<br>000 mid 222<br><br>s should be stored with 0 <br>and e should be sorted with 2                                                                                 | [[4. Dutch National Flag Algo]] |
-| 9. 4Sum ([medium](https://leetcode.com/problems/4sum/))                                                                      |       | reperating number condition                                                                                                                                                                         |        [[2. 3Sum 4Sum]]         |
-| 10. Backspace String Compare ([medium](https://leetcode.com/problems/backspace-string-compare/))                             |  📍   |                                                                                                                                                                                                     |                                 |
-| 11. Shortest Unsorted Continuous Subarray ([medium](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/))   |  📍   | till s sorted<br>from e sorted<br>but edge case where the unsorted part might not be actually unsorted. so find max and min in that and then decrease our s and inc e to make up to the max and min |                                 |
+## 2️⃣ When to Think Two Pointer 🚀
 
-## 2. Pattern: Fast & Slow pointers
+### ✔️ Strong Signals
 
-| Question                                                                                          | Tags | Remember                                                                                                                                                                                                         | My Soluation            |
-| ------------------------------------------------------------------------------------------------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| 1. LinkedList Cycle ([easy](https://leetcode.com/problems/linked-list-cycle/))                    | ⭐    |                                                                                                                                                                                                                  |                         |
-| 2. Start of LinkedList Cycle ([medium](https://leetcode.com/problems/linked-list-cycle-ii/))      | 💀📍 | the maths behind it<br>2 (slow) = fast<br>2 (P + C - X) = P + C - X + C                                                                                                                                          | [[5. LinkedList Cycle]] |
-| 3. Happy Number ([medium](https://leetcode.com/problems/happy-number/))                           | 💀📍 | you get to see same number again for sure<br>2 -> 4 -> 8 -> 16 -> .... -> 8                                                                                                                                      |                         |
-| 4. Find the Duplicate Number ([medium](https://leetcode.com/problems/find-the-duplicate-number/)) | 💀📍 | Logic behind it:<br>Array values in range [1, n], so no element points to index 0. Index 0 is guaranteed to be outside the cycle, making it the perfect starting point to detect the duplicate (cycle entrance). | [[5. LinkedList Cycle]] |
-| 5. Middle of the LinkedList ([easy](https://leetcode.com/problems/middle-of-the-linked-list/))    |      | Floyd Cycle Detection Alog                                                                                                                                                                                       |                         |
-| 6. Palindrome Linked List ([medium](https://leetcode.com/problems/palindrome-linked-list/))       |      |                                                                                                                                                                                                                  |                         |
-| 7. Reorder List ([medium](https://leetcode.com/problems/reorder-list/))                           |      |                                                                                                                                                                                                                  |                         |
-| 8. Circular Array Loop ([hard](https://leetcode.com/problems/circular-array-loop/))               |      |                                                                                                                                                                                                                  |                         |
+- ONLY ON -> Array / Linked List
+- Sorted OR can be sorted
+- Find:
+    - `Pair / Triplet / Quadruple`
+- Operations:
+    - Merge
+    - Remove duplicates
+    - Rearrange elements
+- Constraint:
+    - **If No extra space allowed**
+- Linked List:
+    - Cycle detection
+- Time Complaxcity:
+
+| Approach    | Time                  | Space | Notes                |
+| ----------- | --------------------- | ----- | -------------------- |
+| Brute Force | O(n²)                 | O(1)  | Simple but slow      |
+| HashMap     | O(n)                  | O(n)  | Fast but extra space |
+| Two Pointer | O(n log n) - shorting | O(1)  | Optimal space        |
+
+---
+
+## 3️⃣ Types of Two Pointer Problems (Important)
+
+
+### 1. 🔁 Opposite Ends (Most Common)
+
+![[1-index.webp]]
+
+>One pointer at start `s`, one at end `e`
+>Move towards center  `while (s < e)`
+
+#### 📌 Used in:
+
+- Pair sum
+- Palindrome
+- Sorting / rearranging
+
+#### Example Problems
+
+- [[1. Two Sum]]
+- 3Sum / 4Sum
+- Container with most water
+- Trapping rain water
+- Reverse string/Array
+
+---
+
+### 2. 🐢 Slow & Fast Pointer
+
+> Next type is using two pointers with different speed of movement. 
+> Typically they starts from the left end, then the `fast pointer` advances fast and give some feedback to the `slow pointer` and do some calculation.
+
+![[2-index.webp]]
+
+#### 📌 Used in:
+
+- Linked list problems
+- Cycle detection
+
+#### Example Problems
+
+- Find the middle of a linked list
+- Remove Dublicate from sorted LL - [[3. Slow Fast ptr]]
+- Linked List Cycle
+- Find duplicate number
+- Remove nth node
+
+---
+
+### 3. 🔗 Two Arrays / Merging
+
+> In this category, you will be given 2 arrays or lists, then have to process them with individual pointers.
+
+![[3-index.jpg]]
+
+#### 📌 Used in:
+
+- Merge sorted arrays
+- Intersection problems
+
+#### Example Problems
+
+- Merge Sorted Array
+- Intersection of arrays
+- strstr()
+
+---
+
+### 4. ✂️ Split & Merge
+
+>The last one is similiar to previous category but there is one thing is added. First, you need to split the given list into 2 separate lists and then do two pointers approach to merge or unify them. There aren't many tasks here.
+
+![[4-index.jpg]]
 
 ---

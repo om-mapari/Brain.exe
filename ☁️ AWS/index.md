@@ -6,7 +6,7 @@ tags:
     - index
     - overview
 created: 2025-12-17
-updated: 2026-04-08
+updated: 2026-05-22
 ---
 ---
 
@@ -18,7 +18,7 @@ Welcome to the AWS notes collection. This is a comprehensive guide covering AWS 
 
 ### 🌐 VPC - Virtual Private Cloud
 
-[[🌐 VPC/0 VPC Index|VPC Index]] - Networking fundamentals, security groups, NAT gateways, and network architecture
+[[0. VPC Index]] - Networking fundamentals, security groups, NAT gateways, and network architecture
 
 **Key Topics:**
 - VPC setup and configuration
@@ -28,7 +28,7 @@ Welcome to the AWS notes collection. This is a comprehensive guide covering AWS 
 
 ### 🖥️ EC2 - Elastic Compute Cloud
 
-[[🖥️ EC2/0 EC2 Index|EC2 Index]] - Virtual machines, load balancing, auto scaling, and storage
+[[0. EC2 Index]] - Virtual machines, load balancing, auto scaling, and storage
 
 **Key Topics:**
 - EC2 instances and instance types
@@ -40,7 +40,7 @@ Welcome to the AWS notes collection. This is a comprehensive guide covering AWS 
 
 ### 🚢 ECS - Elastic Container Service
 
-[[🚢 ECS/0 ECS Index|ECS Index]] - Docker container orchestration on AWS
+[[0. ECS Index]] - Docker container orchestration on AWS
 
 **Key Topics:**
 - ECS clusters and task definitions
@@ -52,7 +52,7 @@ Welcome to the AWS notes collection. This is a comprehensive guide covering AWS 
 
 ### 🌍 Internet Fundamentals
 
-[[../🌐 Networking/🌍 Internet/0 Internet and Networking Overview|Internet Overview]] - Core networking concepts
+[[0. Internet and Networking Overview]] - Core networking concepts
 
 **Key Topics:**
 - OSI Model and protocols
@@ -64,7 +64,7 @@ Welcome to the AWS notes collection. This is a comprehensive guide covering AWS 
 
 ### 🐧 Linux
 
-[[../🐧 Linux/tools/0 Linux Index|Linux Index]] - Essential Linux commands and system administration
+[[0 Linux Index]] - Essential Linux commands and system administration
 
 **Key Topics:**
 - IP commands and networking
@@ -76,7 +76,7 @@ Welcome to the AWS notes collection. This is a comprehensive guide covering AWS 
 
 ### 🚀 System Design
 
-[[🚀 System Design/0 System Design Index|System Design Index]] - Architecture patterns and best practices
+[[0 System Design Index]] - Architecture patterns and best practices
 
 **Key Topics:**
 - Load balancing algorithms
@@ -88,17 +88,17 @@ Welcome to the AWS notes collection. This is a comprehensive guide covering AWS 
 
 ### 🧠 GenAI
 
-[[../✨ GenAI/0 GenAI Index|GenAI Index]] - Generative AI concepts and AWS AI services
+[[0 GenAI Index]] - Generative AI concepts and AWS AI services
 
 ### ✨ AI Studio
 
-[[../✨ GenAI/✨AI Studio/0 AI Studio Index|AI Studio Index]] - AI development and project setup
+[[0 AI Studio Index]] - AI development and project setup
 
 ## AWS Services
 
 ### General AWS Services
 
-[[ALL/0 AWS Services Index|AWS Services Index]] - CloudFormation, Kinesis, Step Functions, and more
+[[0. AWS Services Index]] - CloudFormation, Kinesis, Step Functions, and more
 
 **Key Topics:**
 - Infrastructure as Code (IaaC)
@@ -111,7 +111,7 @@ Welcome to the AWS notes collection. This is a comprehensive guide covering AWS 
 
 ### 🎯 SAA-C03
 
-[[🎯 SAA-C03/0 SAA-C03 Index|SAA-C03 Index]] - AWS Solutions Architect Associate certification preparation
+[[0. SAA-C03 Index]] - AWS Solutions Architect Associate certification preparation
 
 **Key Topics:**
 - Exam preparation
@@ -123,22 +123,22 @@ Welcome to the AWS notes collection. This is a comprehensive guide covering AWS 
 
 ### Job Search and Career
 
-[[JOB/0 Career Index|Career Index]] - Resume, skills, interview preparation, and job search resources
+[[0 Career Index]] - Resume, skills, interview preparation, and job search resources
 
 ## Learning Path
 
 For a structured learning path, consider this order:
 
-1. **Networking Fundamentals** - Start with [[../🌐 Networking/🌍 Internet/0 Internet and Networking Overview|Internet Overview]] and [[🌐 VPC/0 VPC Index|VPC]]
-2. **Compute** - Move to [[🖥️ EC2/0 EC2 Index|EC2]] after understanding networking
-3. **Containers** - Learn [[🚢 ECS/0 ECS Index|ECS]] and [[../trash/0 Kubernetes Index|Kubernetes]]
-4. **System Administration** - Study [[../🐧 Linux/tools/0 Linux Index|Linux]] commands
-5. **Architecture** - Explore [[🚀 System Design/0 System Design Index|System Design]] patterns
-6. **Certification** - Prepare with [[🎯 SAA-C03/0 SAA-C03 Index|SAA-C03]] materials
+1. **Networking Fundamentals** - Start with [[0. Internet and Networking Overview]] and [[0. VPC Index]]
+2. **Compute** - Move to [[0. EC2 Index]] after understanding networking
+3. **Containers** - Learn [[0. ECS Index]] and [[0 Kubernetes Index]]
+4. **System Administration** - Study [[0 Linux Index]] commands
+5. **Architecture** - Explore [[0 System Design Index]] patterns
+6. **Certification** - Prepare with [[0. SAA-C03 Index]] materials
 
 ## Related Resources
 
-- [[../🛠️ Terraform/0 Terraform|Terraform]] - Infrastructure as Code
-- [[🌐 Networking/1 OSI Model|Networking]] - Additional networking notes
+- [[0. Terraform]] - Infrastructure as Code
+- [[1. OSI Model]] - Additional networking notes
 
 ---

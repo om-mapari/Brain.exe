@@ -4,47 +4,171 @@ description: My Notes
 tags:
     - dsa
 created: 2026-05-18
-updated: 2026-05-20
+updated: 2026-05-21
 ---
 ---
 
-## Tags
+## 1️⃣ Fixed Size Sliding Window Template
 
-- ⭐ = solved in first try  
-- 📍 = revisit 
-- 🔥 = important  
-- ⚠️ = solved but edge case missed 
-- 👀 = solved but had to see little soluation first 
-- 💀 = out of the box
-- no tag = pending/not started
+📌 Use when **window size is constant (`k`)**
+### Pattern template
 
-## 1. Pattern: Sliding Window
-
-### 1.1 Fixed Size Sliding Window
-
-| Question                                                                                                                                               | Tags | Remember                                                                                                              |    My Soluation     |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------- | :--: | :-------------------------------------------------------------------------------------------------------------------- | :-----------------: |
-| 1. Maximum Sum Subarray of Size K ([easy](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1))                                    |  ⭐   |                                                                                                                       | [[0. Understading]] |
-| 2. Permutation in String ([medium](https://leetcode.com/problems/permutation-in-string/))                                                              | 📍👀 | Is one string a permutation of another?<br>just compare frequencies, <br>you don't need to generate all permutations. |                     |
-| 3. Find All Anagrams in a String ([medium](https://leetcode.com/problems/find-all-anagrams-in-a-string/))                                              |  ⭐   |                                                                                                                       |                     |
-| 5. Maximum Number of Vowels in a Substring of Given Length ([medium](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)) |  ⭐   |                                                                                                                       |                     |
-| 6. Maximum Number of Occurrences of a Substring ([medium](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/))                |  ⭐   |                                                                                                                       |                     |
-| 4. Substring with Concatenation of All Words ([hard](https://leetcode.com/problems/substring-with-concatenation-of-all-words/))                        | 📍👀 |                                                                                                                       |                     |
-| 2461. Maximum Sum of Distinct Subarrays With Length K ([medium](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/))       |  ⭐   |                                                                                                                       |                     |
+- Build first window
+- Slide by:
+    - add new element
+    - remove old element
+    - update answer
 
 
-### 1.2 Dynamic Size Sliding Window
+> [!warning] Remember
+>  No of windows = `n-k+1`
 
-| Question                                                                                                                                                | Tags | Remember | My Soluation |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | -------- | ------------ |
-| 1. Subarrays with Product Less than a Target ([medium](https://leetcode.com/problems/subarray-product-less-than-k/))                                    | ⭐    |          |              |
-| 2. Smallest Subarray with a given sum ([easy](https://leetcode.com/problems/minimum-size-subarray-sum/))                                                |      |          |              |
-| 3. Longest Substring with K Distinct Characters ([medium](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1))          |      |          |              |
-| 4. Fruits into Baskets ([medium](https://leetcode.com/problems/fruit-into-baskets/))                                                                    |      |          |              |
-| 5. No-repeat Substring ([hard](https://leetcode.com/problems/longest-substring-without-repeating-characters/))                                          |      |          |              |
-| 6. Longest Substring with Same Letters after Replacement ([hard](https://leetcode.com/problems/longest-repeating-character-replacement/))               |      |          |              |
-| 7. Longest Subarray with Ones after Replacement ([hard](https://leetcode.com/problems/max-consecutive-ones-iii/))                                       |      |          |              |
-| 8. Minimum Size Subarray Sum ([medium](https://leetcode.com/problems/minimum-size-subarray-sum/))                                                       |      |          |              |
-| 9. Minimum Window Substring ([hard](https://leetcode.com/problems/minimum-window-substring/description/?envType=study-plan-v2&envId=top-interview-150)) |      |          |              |
+
+```cpp
+// Step 1: Build first window of size k
+for (int i = 0; i < k; i++) {
+	add(arr[i]);
+}
+
+// Use first window
+update_answer();
+
+// Step 2: Slide window
+for (int i = k; i < n; i++) {
+
+	// Add new element
+	add(arr[i]);
+
+	// Remove old element
+	remove(arr[i - k]);
+
+	// Update answer
+	update_answer();
+}
+
+```
+
+Example: [max sum of subarray of size `k`](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1)
+
+```cpp
+int maxSubarraySum(vector<int>& arr, int k) {
+    int n = arr.size();
+
+    // Edge case: window size larger than array
+    if (k > n) return -1;
+
+    int windowSum = 0;
+
+    // Step 1: Build first window of size k
+    for (int i = 0; i < k; i++) {
+        windowSum += arr[i];
+    }
+
+    // Initialize result using first window
+    int maxResult = windowSum;
+
+    // Step 2: Slide window
+    for (int i = k; i < n; i++) {
+        // add new element to window
+        windowSum += arr[i];
+
+        // remove old element
+        windowSum -= arr[i - k];
+
+        // Update answer
+        maxResult = max(maxResult, windowSum);
+    }
+
+    return maxResult;
+}
+
+// TC - `O(n)` 
+// SC - `O(1)` 
+
+```
+
+---
+
+## 2️⃣ Variable Size Sliding Window Template
+
+📌 Use when **window size is not fixed**  
+You expand and shrink based on a condition.
+### Pattern
+
+- Expand window using `right`
+- Add the new element in Window
+- Keep checking condition
+    - while invalid:
+        - shrink from left to till it becomes valid
+- update answer
+- Repeat
+
+
+> [!warning] Remember
+>  `WinSize = right - left + 1`
+
+```cpp
+int left = 0;
+
+for (int right = 0; right < n; right++) {
+
+    // 1. Add new element in window
+    add(arr[right]);
+
+    // 2. Shrink from left while invalid
+    while (invalid_window()) {
+        remove(arr[left]);
+        left++;
+    }
+
+    // 3. Use valid window
+    update_answer();
+}
+```
+
+
+Example: [Longest Substring Without Repeating Characters  ](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+
+```cpp  
+int lengthOfLongestSubstring(string s) {  
+	int left = 0, maxLen = 0;  
+	unordered_map<char, int> freq;  
+
+	// Step 1: Expand window  
+	for (int right = 0; right < s.size(); right++) {  
+		char c = s[right];  
+		freq[c]++;  
+
+		// Step 2: Shrink while invalid  
+		while (freq[c] > 1) {  
+			freq[s[left]]--;  
+			left++;  
+		}  
+
+		// Step 3: Update answer  
+		maxLen = max(maxLen, right - left + 1);  
+	}  
+
+	return maxLen;  
+}  
+
+// TC - `O(n)`  
+// SC - `O(k)` // k = unique chars  
+```
+
+---
+
+0️⃣. BF
+
+Useful calculations
+- No of windows = n-k+1
+
+BF approach
+ 1 2 3 4 5 6
+ window size k=2
+
+for( i= 0 --> i < n - (k - 1) )
+
+    for( j= i --> j < i + k )
 
 ---

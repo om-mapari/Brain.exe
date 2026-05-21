@@ -10,7 +10,7 @@ tags:
     - cloud
     - system-design
 created: 2025-12-10
-updated: 2026-04-18
+updated: 2026-05-21
 ---
 ---
 
@@ -46,7 +46,7 @@ If something looks wrong, outdated, or confusing, feel free to reach out. I genu
 Anywhere. Seriously 😌
 <br>Try any of these:
 
-👉 Search for a topic  `cmd / ctrl` + `k` <br>
+👉 Search for a topic  `cmd / ctrl` + `p` <br>
 👉 Open random notes and explore<br>
 👉 Explore the graph view  `cmd / ctrl` + `g`<br>
 👉 Explore the mind map view  `f` (press again for fullscreen)<br>

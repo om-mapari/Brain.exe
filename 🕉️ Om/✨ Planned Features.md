@@ -6,7 +6,7 @@ tags:
     - Site
     - om
 created: 2025-12-25
-updated: 2026-04-16
+updated: 2026-05-22
 ---
 ---
 
@@ -20,7 +20,7 @@ This to tracks features I'm planning to add to Fork My Brain.
 - [x] **Add Mind Map for Pages**
     - A mind map view on every page  
 - [x] **Excalidraw Support**
-    - Draw diagrams directly inside notes.  checkout →  [[../🚀 System Design/3. Questions/0. Ticket Master|0. Ticket Master]]
+    - Draw diagrams directly inside notes.  checkout →  [[0. Ticket Master]]
     - Useful for system design, DSA, and brainstorming
     - Supports light and dark mode switching 
 - [ ] **Pirvate Pages**

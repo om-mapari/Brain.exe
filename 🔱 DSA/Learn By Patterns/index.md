@@ -1,9 +1,9 @@
 ---
 title: Learn By Patterns
 created: 2026-04-18
-updated: 2026-05-18
+updated: 2026-05-21
 tags:
-    - om
+    - dsa
 ---
 ---
 
@@ -85,7 +85,7 @@ tags:
 
 ### 📊 Sorted Array
 
-- Two pointers technique - [[../1. Two Pointers/index|1. Two Pointers]]
+- Two pointers technique - [[under]]
 - Binary search
 - Greedy
 
@@ -255,7 +255,7 @@ tags:
 ### 🪟 Sliding Window
 
 - "Substring" with conditions
-- Subarray" with fixed/variable size
+- "Subarray" with fixed/variable size
 - "Maximum/minimum window"
 - "Contains all"
 
